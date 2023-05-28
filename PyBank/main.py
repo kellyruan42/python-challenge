@@ -44,7 +44,7 @@ with open("./Resources/budget_data.csv", 'r') as csv_file:
         print("Greatest Dncrease in Profits: " + date[worst_row] + " ($" + str(min(monthly_change)) + ")")
 
         # Export the output in txt
-        f = open('Analysis and Output.txt', 'w')
+        f = open('./analysis/Analysis and Output.txt', 'w')
         f.write("\nFinancial Analysis\n")
         f.write("\n---------------------------------------------------\n")
         f.write(f'\nTotal Months: {rowcount}\n')
