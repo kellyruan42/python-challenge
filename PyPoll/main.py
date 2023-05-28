@@ -54,7 +54,7 @@ print("Winner: " + winner)
 print("-----------------------------------------")
 
 # Export the output in txt
-f = open('Analysis and Output.txt', 'w')
+f = open('./analysis/Analysis and Output.txt', 'w')
 f.write("\nElection Results\n")
 f.write("\n---------------------------------------------------\n")
 f.write(f'\nTotal Votes: {str(rowcount)}\n')
